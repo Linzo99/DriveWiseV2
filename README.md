@@ -145,8 +145,35 @@ The database will be automatically created on first run. The schema is defined i
 
 ### 6. Run the Application
 
+**Option 1: Using FastAPI CLI (Development)**
 ```bash
 fastapi dev src.main
+```
+
+**Option 2: Using Docker (Production)**
+```bash
+# Build the image
+docker build -t drivewise .
+
+# Run the container
+docker run -d \
+  --name drivewise \
+  -p 8000:8000 \
+  -e GROQ_API_KEY=your_api_key_here \
+  -v $(pwd)/data:/app/data \
+  drivewise
+```
+
+**Option 3: Using Docker Compose (Recommended)**
+```bash
+# Make sure your .env file is configured
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop the container
+docker-compose down
 ```
 
 The API will be available at `http://localhost:8000`
@@ -279,6 +306,46 @@ To use a different provider:
 For detailed installation instructions, see the [Pydantic AI installation guide](https://ai.pydantic.dev/install/#slim-install).
 
 
+## 🐳 Docker Deployment
+
+DriveWise includes Docker support for easy deployment:
+
+### Building the Image
+
+```bash
+docker build -t drivewise .
+```
+
+### Running with Docker
+
+```bash
+docker run -d \
+  --name drivewise \
+  -p 8000:8000 \
+  -e GROQ_API_KEY=your_api_key_here \
+  -v $(pwd)/data:/app/data \
+  drivewise
+```
+
+### Using Docker Compose
+
+1. Create a `.env` file with your API key:
+   ```env
+   GROQ_API_KEY=your_api_key_here
+   ```
+
+2. Start the service:
+   ```bash
+   docker-compose up -d
+   ```
+
+3. View logs:
+   ```bash
+   docker-compose logs -f
+   ```
+
+The database will be persisted in the `./data` directory.
+
 ## 🌐 Integration & Deployment
 
 ### WhatsApp via FlowBot
@@ -297,9 +364,18 @@ The workflow demonstrates:
 
 To deploy DriveWise with FlowBot:
 
-1. Deploy the FastAPI backend (e.g., using ngrok for development or a cloud provider for production)
-2. Configure FlowBot webhooks to point to your API endpoints
-3. Set up the workflow in FlowBot using the example as a template
-4. Test the integration with WhatsApp
+1. **Deploy the FastAPI backend:**
+   - **Development**: Use ngrok or similar tunneling service
+   - **Production**: Deploy to cloud providers (AWS, GCP, Azure, Railway, Render, etc.)
+   - **Docker**: Use the included Dockerfile for containerized deployment
+
+2. **Configure FlowBot webhooks** to point to your API endpoints:
+   - `/sign-quizz`
+   - `/general-quizz`
+   - `/learn-sign`
+
+3. **Set up the workflow** in FlowBot using the example as a template
+
+4. **Test the integration** with WhatsApp
 
 Made with ❤️ for safer roads

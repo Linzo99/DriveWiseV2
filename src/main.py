@@ -17,7 +17,7 @@ async def sign_quizz(phone:str, level:str="2"):
     qts = [f"{i+1}) {q}" for i, q in enumerate(quizz.options)]
 
     return {
-        "text":f"{quizz.question}\n\n{"\n".join(qts)}",
+        "text":f"{quizz.question}\n\n{'\n'.join(qts)}",
         "buttons" : [
             {
                 "id": f"{i}",
