@@ -1,0 +1,4 @@
+fastapi[standard]
+aiosqlite
+pydantic
+pydantic-ai-slim[groq]

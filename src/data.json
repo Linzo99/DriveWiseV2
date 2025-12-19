@@ -1,0 +1,2740 @@
+[
+  {
+    "id": "A0",
+    "name": "Panneau de danger",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A0.png",
+    "description": "Ce panneau signale un danger sur la route. Un panonceau peut préciser la nature du danger ou la distance à laquelle il se trouve.",
+    "rules": [
+      "Redoubler de prudence",
+      "Adapter sa vitesse aux conditions",
+      "Être attentif à l'environnement"
+    ],
+    "typical_locations": [
+      "Avant une zone de danger",
+      "Sur les routes de campagne",
+      "En agglomération"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas réduire sa vitesse",
+      "Ignorer le panneau",
+      "Ne pas anticiper le danger"
+    ]
+  },
+  {
+    "id": "A1a",
+    "name": "Virage à droite",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A1a.png",
+    "description": "Ce panneau annonce un virage dangereux à droite.",
+    "rules": [
+      "Ralentir avant le virage",
+      "Serrer à droite",
+      "Anticiper la trajectoire"
+    ],
+    "typical_locations": [
+      "Avant un virage serré",
+      "Sur les routes sinueuses",
+      "En montagne"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Aborder le virage trop vite",
+      "Couper le virage",
+      "Ne pas anticiper la trajectoire"
+    ]
+  },
+  {
+    "id": "A1b",
+    "name": "Virage à gauche",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A1b.png",
+    "description": "Ce panneau annonce un virage dangereux à gauche.",
+    "rules": [
+      "Ralentir avant le virage",
+      "Se positionner correctement dans la voie",
+      "Anticiper la trajectoire"
+    ],
+    "typical_locations": [
+      "Avant un virage serré",
+      "Sur les routes sinueuses",
+      "En montagne"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Aborder le virage trop vite",
+      "Couper le virage",
+      "Ne pas anticiper la trajectoire"
+    ]
+  },
+  {
+    "id": "A1d",
+    "name": "Succession de virages dont le premier est à gauche",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A1d.png",
+    "description": "Ce panneau annonce une succession de virages dangereux, le premier étant à gauche.",
+    "rules": [
+      "Ralentir considérablement",
+      "Adapter sa vitesse à la configuration des virages",
+      "Être particulièrement vigilant"
+    ],
+    "typical_locations": [
+      "Sur les routes de montagne",
+      "Dans les zones vallonnées",
+      "Avant une série de virages rapprochés"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment",
+      "Perdre le contrôle du véhicule",
+      "Sous-estimer la difficulté des virages"
+    ]
+  },
+  {
+    "id": "A2a",
+    "name": "Cassis ou dos d'âne",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A2a.png",
+    "description": "Ce panneau annonce un cassis ou un dos d'âne, une déformation de la chaussée.",
+    "rules": [
+      "Ralentir avant la déformation",
+      "Maintenir une trajectoire stable",
+      "Être attentif aux autres usagers"
+    ],
+    "typical_locations": [
+      "Dans les zones résidentielles",
+      "Sur les routes de campagne",
+      "Avant un passage à niveau"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas ralentir",
+      "Perdre le contrôle du véhicule",
+      "Endommager le véhicule"
+    ]
+  },
+  {
+    "id": "A2b",
+    "name": "Ralentisseur de type dos d'Âne",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A2b.png",
+    "description": "Ce panneau annonce la présence d'un ralentisseur de type dos d'âne.",
+    "rules": [
+      "Ralentir fortement avant le ralentisseur",
+      "Franchir le ralentisseur à vitesse réduite",
+      "Être attentif aux autres usagers"
+    ],
+    "typical_locations": [
+      "Dans les zones résidentielles",
+      "Proche des écoles",
+      "Dans les zones piétonnes"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment",
+      "Endommager le véhicule",
+      "Provoquer un accident"
+    ]
+  },
+  {
+    "id": "A3",
+    "name": "Chaussée rétrécie",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A3.png",
+    "description": "Ce panneau annonce un rétrécissement de la chaussée.",
+    "rules": [
+      "Ralentir",
+      "Être attentif à la circulation",
+      "Céder le passage si nécessaire"
+    ],
+    "typical_locations": [
+      "Avant un pont étroit",
+      "Avant des travaux",
+      "Dans les zones urbaines"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas ralentir",
+      "Ne pas céder le passage",
+      "Provoquer un accident"
+    ]
+  },
+  {
+    "id": "A3a",
+    "name": "Chaussée rétrécie par la droite",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A3a.png",
+    "description": "Ce panneau annonce un rétrécissement de la chaussée par la droite.",
+    "rules": [
+      "Ralentir",
+      "Se déporter légèrement vers la gauche",
+      "Être attentif aux autres usagers"
+    ],
+    "typical_locations": [
+      "Avant des travaux",
+      "Dans les zones urbaines",
+      "Sur les routes étroites"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas ralentir",
+      "Ne pas se déporter",
+      "Provoquer un accident"
+    ]
+  },
+  {
+    "id": "A4",
+    "name": "Risque de verglas",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "weather"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A4.png",
+    "description": "Ce panneau annonce un risque de verglas.",
+    "rules": [
+      "Réduire sa vitesse",
+      "Augmenter les distances de sécurité",
+      "Éviter les freinages brusques"
+    ],
+    "typical_locations": [
+      "Dans les zones froides",
+      "Sur les ponts",
+      "Dans les zones ombragées"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas adapter sa conduite",
+      "Freiner brusquement",
+      "Perdre le contrôle du véhicule"
+    ]
+  },
+  {
+    "id": "A6",
+    "name": "Pont mobile",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A6.png",
+    "description": "Ce panneau annonce la présence d'un pont mobile.",
+    "rules": [
+      "Ralentir",
+      "Être attentif aux signaux lumineux",
+      "S'arrêter si le pont est en mouvement"
+    ],
+    "typical_locations": [
+      "Près des canaux",
+      "Près des rivières",
+      "Dans les zones portuaires"
+    ],
+    "shape": "Triangulaire",
+    "common_mistakes": [
+      "Ne pas ralentir",
+      "Ignorer les signaux lumineux",
+      "Traverser le pont en mouvement"
+    ]
+  },
+  {
+    "id": "A7",
+    "name": "Passage à niveau muni de barrières",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A7.png",
+    "description": "Annonce la proximité d'un passage à niveau équipé de barrières.",
+    "rules": [
+      "Ralentir à l'approche du passage à niveau.",
+      "Être prêt à s'arrêter si les barrières sont baissées ou en mouvement.",
+      "Ne pas franchir le passage à niveau si les feux rouges clignotent ou si les barrières sont baissées."
+    ],
+    "typical_locations": [
+      "Routes approchant un passage à niveau avec barrières."
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment à l'approche du passage à niveau.",
+      "Ignorer les signaux lumineux ou les barrières.",
+      "Tenter de franchir le passage à niveau lorsque les barrières sont en mouvement."
+    ]
+  },
+  {
+    "id": "A8",
+    "name": "Passage à niveau sans barrière",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A8.png",
+    "description": "Annonce la proximité d'un passage à niveau non équipé de barrières.",
+    "rules": [
+      "Ralentir à l'approche du passage à niveau.",
+      "Redoubler de vigilance et vérifier l'absence de train avant de traverser.",
+      "Respecter la signalisation spécifique (panneaux, feux clignotants)."
+    ],
+    "typical_locations": [
+      "Routes approchant un passage à niveau sans barrières."
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment à l'approche du passage à niveau.",
+      "Ne pas vérifier l'absence de train avant de traverser.",
+      "Ignorer la signalisation spécifique."
+    ]
+  },
+  {
+    "id": "A9",
+    "name": "Traversée de voies de tramways",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A9.png",
+    "description": "Signale la présence d'une traversée de voies de tramway.",
+    "rules": [
+      "Être attentif à la circulation des tramways.",
+      "Céder le passage aux tramways.",
+      "Ne pas stationner sur les voies de tramway."
+    ],
+    "typical_locations": ["Routes croisant des voies de tramway."],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas être attentif à la circulation des tramways.",
+      "Ne pas céder le passage aux tramways.",
+      "Stationner sur les voies de tramway."
+    ]
+  },
+  {
+    "id": "A13a",
+    "name": "Endroit fréquenté par les enfants",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "pedestrian"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A13a.png",
+    "description": "Indique un lieu où les enfants sont susceptibles d'être présents (école, aire de jeux...).",
+    "rules": [
+      "Ralentir et redoubler de prudence.",
+      "Être particulièrement attentif aux enfants.",
+      "S'attendre à des mouvements imprévisibles."
+    ],
+    "typical_locations": [
+      "Abords des écoles.",
+      "Proximité des aires de jeux.",
+      "Zones résidentielles avec forte présence d'enfants."
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment.",
+      "Ne pas être attentif aux enfants.",
+      "Ne pas anticiper les mouvements imprévisibles."
+    ]
+  },
+  {
+    "id": "A13b",
+    "name": "Passage pour piétons",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "pedestrian"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A13b.png",
+    "description": "Annonce la présence d'un passage pour piétons.",
+    "rules": [
+      "Ralentir à l'approche du passage piéton.",
+      "Céder le passage aux piétons engagés ou souhaitant s'engager sur le passage.",
+      "Être particulièrement vigilant en cas de faible visibilité."
+    ],
+    "typical_locations": ["Routes approchant un passage piéton."],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment.",
+      "Ne pas céder le passage aux piétons.",
+      "Ne pas être vigilant en cas de faible visibilité."
+    ]
+  },
+  {
+    "id": "A14",
+    "name": "Autres dangers",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A14.png",
+    "description": "Signale un danger non spécifié par un autre panneau.",
+    "rules": [
+      "Redoubler de prudence.",
+      "Adapter sa vitesse aux conditions de circulation.",
+      "Être attentif à l'environnement."
+    ],
+    "typical_locations": [
+      "Endroits présentant un danger inhabituel ou non couvert par d'autres panneaux."
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas redoubler de prudence.",
+      "Ne pas adapter sa vitesse.",
+      "Ne pas être attentif à l'environnement."
+    ]
+  },
+  {
+    "id": "A15a1",
+    "name": "Passage d'animaux domestiques",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A15a1.png",
+    "description": "Annonce un lieu de passage fréquent d'animaux domestiques (vaches, moutons...).",
+    "rules": [
+      "Ralentir et redoubler de prudence.",
+      "Être attentif à la présence d'animaux sur la route.",
+      "Ne pas klaxonner de manière excessive pour ne pas effrayer les animaux."
+    ],
+    "typical_locations": ["Zones rurales, à proximité de pâturages."],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment.",
+      "Ne pas être attentif à la présence d'animaux.",
+      "Klaxonner de manière excessive."
+    ]
+  },
+  {
+    "id": "A15a2",
+    "name": "Passage d'animaux domestiques",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A15a2.png",
+    "description": "Annonce un lieu de passage fréquent d'animaux domestiques (vaches, moutons...).",
+    "rules": [
+      "Ralentir et redoubler de prudence.",
+      "Être attentif à la présence d'animaux sur la route.",
+      "Ne pas klaxonner de manière excessive pour ne pas effrayer les animaux."
+    ],
+    "typical_locations": ["Zones rurales, à proximité de pâturages."],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment.",
+      "Ne pas être attentif à la présence d'animaux.",
+      "Klaxonner de manière excessive."
+    ]
+  },
+  {
+    "id": "A15b",
+    "name": "Passage de d'animaux sauvages",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A15b.png",
+    "description": "Annonce un lieu de passage fréquent d'animaux sauvages (cerfs, sangliers...).",
+    "rules": [
+      "Ralentir et redoubler de prudence, surtout la nuit et au crépuscule.",
+      "Être attentif à la présence d'animaux sur la route ou en bordure.",
+      "En cas de présence d'animaux, ralentir et les laisser traverser."
+    ],
+    "typical_locations": [
+      "Zones forestières, à proximité de réserves naturelles."
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment.",
+      "Ne pas être attentif à la présence d'animaux.",
+      "Avoir une réaction brusque en présence d'animaux."
+    ]
+  },
+  {
+    "id": "A15c",
+    "name": "Passage de cavaliers",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A15c.png",
+    "description": "Annonce un lieu de passage fréquent de cavaliers.",
+    "rules": [
+      "Ralentir et redoubler de prudence.",
+      "Être attentif à la présence de cavaliers sur la route.",
+      "Laisser suffisamment d'espace aux cavaliers lors du dépassement.",
+      "Ne pas klaxonner."
+    ],
+    "typical_locations": [
+      "Proximité de centres équestres.",
+      "Chemins de randonnée équestre."
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment.",
+      "Ne pas être attentif à la présence de cavaliers.",
+      "Dépasser les cavaliers trop près.",
+      "Klaxonner."
+    ]
+  },
+  {
+    "id": "A16",
+    "name": "Descente dangereuse",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A16.png",
+    "description": "Ce panneau signale une section de route avec une pente descendante raide. Les conducteurs doivent réduire leur vitesse et utiliser un rapport de vitesse inférieur pour maintenir le contrôle du véhicule.",
+    "rules": [
+      "Réduire la vitesse",
+      "Utiliser un rapport de vitesse inférieur",
+      "Être prêt à freiner",
+      "Maintenir une distance de sécurité avec les autres véhicules"
+    ],
+    "typical_locations": [
+      "Routes de montagne",
+      "Routes vallonnées",
+      "Approches de ponts"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas réduire la vitesse suffisamment",
+      "Utiliser les freins de manière excessive",
+      "Ne pas maintenir une distance de sécurité"
+    ]
+  },
+  {
+    "id": "A17",
+    "name": "Annonce de feux tricolores",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A17.png",
+    "description": "Ce panneau avertit les conducteurs de la présence prochaine de feux de signalisation. Les conducteurs doivent être prêts à s'arrêter si le feu est rouge.",
+    "rules": [
+      "Être attentif aux feux de signalisation",
+      "Réduire la vitesse à l'approche des feux",
+      "Être prêt à s'arrêter",
+      "Respecter les feux de signalisation"
+    ],
+    "typical_locations": [
+      "Routes urbaines",
+      "Approches d'intersections",
+      "Zones de travaux"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas être attentif aux feux",
+      "Freiner brusquement",
+      "Brûler un feu rouge"
+    ]
+  },
+  {
+    "id": "A18",
+    "name": "Circulation dans les deux sens",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A18.png",
+    "description": "Ce panneau indique que la route passe d'une circulation à sens unique à une circulation à double sens. Les conducteurs doivent être conscients de la circulation venant en sens inverse.",
+    "rules": [
+      "Être conscient de la circulation venant en sens inverse",
+      "Rester sur sa voie",
+      "Être prudent lors des dépassements",
+      "Maintenir une distance de sécurité"
+    ],
+    "typical_locations": [
+      "Sorties d'autoroutes",
+      "Zones de travaux",
+      "Routes de campagne"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas être attentif à la circulation venant en sens inverse",
+      "Dépasser dans des endroits dangereux",
+      "Couper la voie de circulation opposée"
+    ]
+  },
+  {
+    "id": "A19",
+    "name": "Risque de chutes de pierres",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A19.png",
+    "description": "Ce panneau avertit les conducteurs d'un risque de chutes de pierres sur la route. Les conducteurs doivent être prudents et attentifs à la présence de roches sur la chaussée.",
+    "rules": [
+      "Être attentif à la présence de roches sur la chaussée",
+      "Réduire la vitesse",
+      "Être prêt à freiner",
+      "Éviter de s'arrêter sous des zones à risque"
+    ],
+    "typical_locations": [
+      "Routes de montagne",
+      "Routes longeant des falaises",
+      "Zones de travaux"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas être attentif à la présence de roches",
+      "Conduire trop vite",
+      "S'arrêter dans des zones dangereuses"
+    ]
+  },
+  {
+    "id": "A20",
+    "name": "Débouche sur un quai ou une berge",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A20.png",
+    "description": "Ce panneau avertit les conducteurs que la route se termine sur un quai ou une berge. Il y a un risque de chute dans l'eau. Les conducteurs doivent être extrêmement prudents.",
+    "rules": [
+      "Réduire considérablement la vitesse",
+      "Être extrêmement prudent",
+      "Être prêt à s'arrêter",
+      "Ne pas s'approcher trop près du bord"
+    ],
+    "typical_locations": ["Quais", "Bords de rivières", "Ports"],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Conduire trop vite",
+      "Ne pas être attentif",
+      "S'approcher trop près du bord",
+      "Ne pas tenir compte du risque de chute"
+    ]
+  },
+  {
+    "id": "A21a",
+    "name": "Débouche de cyclistes",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "pedestrian"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A21a.png",
+    "description": "Ce panneau avertit les conducteurs de la présence fréquente de cyclistes traversant ou rejoignant la route. Les conducteurs doivent être attentifs et céder le passage aux cyclistes.",
+    "rules": [
+      "Être attentif aux cyclistes",
+      "Réduire la vitesse",
+      "Céder le passage aux cyclistes",
+      "Maintenir une distance de sécurité avec les cyclistes"
+    ],
+    "typical_locations": ["Pistes cyclables", "Zones résidentielles", "Écoles"],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas être attentif aux cyclistes",
+      "Conduire trop vite",
+      "Ne pas céder le passage aux cyclistes",
+      "Dépasser les cyclistes de manière dangereuse"
+    ]
+  },
+  {
+    "id": "A23",
+    "name": "Traversée d'une aire de danger aérien",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "road_conditions"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A23.png",
+    "description": "Ce panneau avertit les conducteurs qu'ils traversent une zone où des aéronefs volent à basse altitude. Les conducteurs ne doivent pas être distraits et doivent être conscients du bruit potentiel.",
+    "rules": [
+      "Être conscient du bruit potentiel des aéronefs",
+      "Ne pas être distrait",
+      "Ne pas s'arrêter inutilement",
+      "Être prêt à réagir en cas d'urgence"
+    ],
+    "typical_locations": [
+      "Proximité d'aérodromes",
+      "Zones d'entraînement militaire",
+      "Routes de campagne"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Être distrait par les aéronefs",
+      "S'arrêter pour observer les aéronefs",
+      "Paniquer à cause du bruit"
+    ]
+  },
+  {
+    "id": "A24",
+    "name": "Vent latéral",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "weather"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/A24.png",
+    "description": "Ce panneau avertit les conducteurs de la présence de vents latéraux forts. Les conducteurs doivent réduire leur vitesse et tenir fermement le volant.",
+    "rules": [
+      "Réduire la vitesse",
+      "Tenir fermement le volant",
+      "Être prêt à corriger la trajectoire",
+      "Être particulièrement prudent avec les véhicules hauts"
+    ],
+    "typical_locations": ["Ponts", "Viaducs", "Zones dégagées", "Bords de mer"],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas réduire la vitesse",
+      "Ne pas tenir fermement le volant",
+      "Être surpris par le vent",
+      "Perdre le contrôle du véhicule"
+    ]
+  },
+  {
+    "id": "AB1",
+    "name": "Priorité à droite",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "intersections"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB1.png",
+    "description": "Ce panneau avertit les conducteurs qu'ils doivent céder le passage aux véhicules venant de leur droite à la prochaine intersection.",
+    "rules": [
+      "Céder le passage aux véhicules venant de droite",
+      "Réduire la vitesse à l'approche de l'intersection",
+      "Être attentif à la circulation",
+      "Ne pas s'engager dans l'intersection si un véhicule arrive de droite"
+    ],
+    "typical_locations": [
+      "Intersections sans signalisation",
+      "Zones résidentielles",
+      "Routes de campagne"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas céder le passage à droite",
+      "Conduire trop vite à l'approche de l'intersection",
+      "Ne pas être attentif à la circulation",
+      "Provoquer un accident"
+    ]
+  },
+  {
+    "id": "AB2",
+    "name": "Priorité ponctuelle",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "intersections"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB2.png",
+    "description": "Ce panneau avertit les conducteurs qu'ils ont la priorité à la prochaine intersection, mais qu'ils doivent rester vigilants.",
+    "rules": [
+      "Rester vigilant à l'approche de l'intersection",
+      "Ralentir si nécessaire",
+      "S'assurer qu'il est sûr de traverser",
+      "Céder le passage si la situation l'exige"
+    ],
+    "typical_locations": [
+      "Intersections avec priorité",
+      "Routes principales",
+      "Zones urbaines"
+    ],
+    "shape": "Triangle",
+    "common_mistakes": [
+      "Ne pas ralentir à l'approche de l'intersection",
+      "Ne pas vérifier la circulation",
+      "Penser avoir toujours la priorité",
+      "Provoquer un accident"
+    ]
+  },
+  {
+    "id": "AB3a",
+    "name": "Cédez le passage",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB3a.png",
+    "description": "Indique aux conducteurs qu'ils doivent céder le passage aux véhicules sur la route qu'ils approchent.",
+    "rules": [
+      "Ralentir ou s'arrêter si nécessaire",
+      "Céder le passage aux véhicules sur la route prioritaire",
+      "S'engager seulement quand c'est sûr"
+    ],
+    "typical_locations": [
+      "Intersections",
+      "Bretelles d'autoroute",
+      "Routes secondaires rejoignant des routes principales"
+    ],
+    "shape": "Triangle inversé",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment",
+      "Ne pas céder le passage aux véhicules prioritaires",
+      "S'engager trop rapidement"
+    ]
+  },
+  {
+    "id": "AB3b",
+    "name": "Cédez le passage",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB3b.png",
+    "description": "Indique aux cyclistes qu'ils doivent céder le passage aux véhicules sur la route qu'ils approchent.",
+    "rules": [
+      "Ralentir ou s'arrêter si nécessaire",
+      "Céder le passage aux véhicules sur la route prioritaire",
+      "S'engager seulement quand c'est sûr"
+    ],
+    "typical_locations": [
+      "Pistes cyclables rejoignant des routes",
+      "Intersections de pistes cyclables et de routes"
+    ],
+    "shape": "Triangle inversé",
+    "common_mistakes": [
+      "Ne pas ralentir suffisamment",
+      "Ne pas céder le passage aux véhicules prioritaires",
+      "S'engager trop rapidement"
+    ]
+  },
+  {
+    "id": "AB5",
+    "name": "STOP",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB5.png",
+    "description": "Exige un arrêt complet avant de s'engager dans une intersection.",
+    "rules": [
+      "Arrêt complet obligatoire",
+      "Céder le passage aux véhicules et piétons",
+      "S'engager seulement quand c'est sûr"
+    ],
+    "typical_locations": [
+      "Intersections dangereuses",
+      "Routes avec mauvaise visibilité"
+    ],
+    "shape": "Octogonal",
+    "common_mistakes": [
+      "Ne pas s'arrêter complètement",
+      "Ne pas céder le passage",
+      "S'engager trop rapidement"
+    ]
+  },
+  {
+    "id": "AB6",
+    "name": "Indication de caractère prioritaire",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB6.png",
+    "description": "Indique que vous avez la priorité sur les autres véhicules à l'intersection suivante.",
+    "rules": [
+      "Maintenir sa vitesse",
+      "Être attentif aux autres véhicules",
+      "Rester prudent"
+    ],
+    "typical_locations": ["Routes principales", "Avant les intersections"],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Abuser de sa priorité",
+      "Ne pas être attentif aux autres véhicules"
+    ]
+  },
+  {
+    "id": "AB7",
+    "name": "Fin de caractère prioritaire",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB7.png",
+    "description": "Indique la fin de la route prioritaire. Vous devez céder le passage aux intersections suivantes.",
+    "rules": [
+      "Être prêt à céder le passage",
+      "Ralentir à l'approche des intersections",
+      "Être attentif aux autres véhicules"
+    ],
+    "typical_locations": [
+      "Fin des routes principales",
+      "Avant les intersections"
+    ],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Ne pas céder le passage",
+      "Ne pas ralentir suffisamment"
+    ]
+  },
+  {
+    "id": "AB25",
+    "name": "Carrefour à sens giratoire.",
+    "category": {
+      "name": "warning",
+      "description": "Panneaux avertissant les usagers des conditions dangereuses de la route",
+      "subcategory": "intersections"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/AB25.png",
+    "description": "Annonce l'approche d'un carrefour giratoire.",
+    "rules": [
+      "Ralentir à l'approche du rond-point",
+      "Céder le passage aux véhicules déjà engagés dans le rond-point",
+      "Signaler son intention de sortir du rond-point"
+    ],
+    "typical_locations": ["Avant les ronds-points"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ne pas céder le passage",
+      "Ne pas signaler sa sortie",
+      "Entrer trop rapidement dans le rond-point"
+    ]
+  },
+  {
+    "id": "B0",
+    "name": "Circulation interdite",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B0.png",
+    "description": "Interdit l'accès à tous les véhicules.",
+    "rules": ["Ne pas s'engager sur la route", "Chercher un autre itinéraire"],
+    "typical_locations": ["Début de zones piétonnes", "Routes en travaux"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau",
+      "Penser que l'interdiction ne s'applique pas à son véhicule"
+    ]
+  },
+  {
+    "id": "B1",
+    "name": "Sens interdit",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B1.png",
+    "description": "Interdit de s'engager dans cette direction.",
+    "rules": ["Ne pas s'engager sur la route", "Chercher un autre itinéraire"],
+    "typical_locations": ["Sorties d'autoroute", "Ruelles à sens unique"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau",
+      "Ne pas faire attention au sens de la circulation"
+    ]
+  },
+  {
+    "id": "B2a",
+    "name": "Interdiction de tourner à gauche",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B2a.png",
+    "description": "Interdit de tourner à gauche à la prochaine intersection.",
+    "rules": [
+      "Ne pas tourner à gauche",
+      "Continuer tout droit ou tourner à droite"
+    ],
+    "typical_locations": [
+      "Intersections dangereuses",
+      "Routes à forte circulation"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau",
+      "Tourner à gauche malgré l'interdiction"
+    ]
+  },
+  {
+    "id": "B2a1",
+    "name": "Stop",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B2a1.png",
+    "description": "Exige un arrêt complet avant de s'engager dans une intersection.",
+    "rules": [
+      "Arrêt complet obligatoire",
+      "Céder le passage aux véhicules et piétons",
+      "S'engager seulement quand c'est sûr"
+    ],
+    "typical_locations": [
+      "Intersections dangereuses",
+      "Routes avec mauvaise visibilité"
+    ],
+    "shape": "Octogonal",
+    "common_mistakes": [
+      "Ne pas s'arrêter complètement",
+      "Ne pas céder le passage",
+      "S'engager trop rapidement"
+    ]
+  },
+  {
+    "id": "B2b",
+    "name": "Interdiction de tourner à droite",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B2b.png",
+    "description": "Ce panneau indique qu'il est interdit de tourner à droite à la prochaine intersection.",
+    "rules": ["Ne pas tourner à droite à la prochaine intersection."],
+    "typical_locations": ["Intersections", "Routes à sens unique"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Tourner à droite sans tenir compte du panneau",
+      "Ne pas voir le panneau"
+    ]
+  },
+  {
+    "id": "B2c",
+    "name": "Interdiction de faire demi-tour",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B2c.png",
+    "description": "Ce panneau indique qu'il est interdit de faire demi-tour.",
+    "rules": ["Ne pas faire demi-tour."],
+    "typical_locations": [
+      "Routes à circulation rapide",
+      "Zones à forte densité de circulation"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Faire demi-tour sans tenir compte du panneau",
+      "Ne pas voir le panneau"
+    ]
+  },
+  {
+    "id": "B3",
+    "name": "Interdiction de dépasser",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B3.png",
+    "description": "Ce panneau indique qu'il est interdit de dépasser d'autres véhicules.",
+    "rules": ["Ne pas dépasser d'autres véhicules."],
+    "typical_locations": ["Routes étroites", "Zones à visibilité réduite"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Dépasser sans tenir compte du panneau",
+      "Ne pas voir le panneau"
+    ]
+  },
+  {
+    "id": "B3a",
+    "name": "Interdiction de dépasser",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B3a.png",
+    "description": "Ce panneau indique qu'il est interdit aux véhicules poids lourds de dépasser d'autres véhicules.",
+    "rules": [
+      "Les véhicules poids lourds ne doivent pas dépasser d'autres véhicules."
+    ],
+    "typical_locations": ["Routes étroites", "Zones à visibilité réduite"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Les véhicules poids lourds dépassent sans tenir compte du panneau",
+      "Ne pas voir le panneau"
+    ]
+  },
+  {
+    "id": "B4",
+    "name": "Douane : arrêt",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B4.png",
+    "description": "Ce panneau indique qu'il est obligatoire de s'arrêter à la douane.",
+    "rules": ["S'arrêter à la douane."],
+    "typical_locations": ["Postes frontières"],
+    "shape": "Rond",
+    "common_mistakes": ["Ne pas s'arrêter à la douane", "Ignorer le panneau"]
+  },
+  {
+    "id": "B5a",
+    "name": "Gendarmerie : arrêt",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B5a.png",
+    "description": "Ce panneau indique qu'il est obligatoire de s'arrêter à la gendarmerie.",
+    "rules": ["S'arrêter à la gendarmerie."],
+    "typical_locations": ["Postes de gendarmerie"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ne pas s'arrêter à la gendarmerie",
+      "Ignorer le panneau"
+    ]
+  },
+  {
+    "id": "B5c",
+    "name": "Péage: arrêt",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B5c.png",
+    "description": "Ce panneau indique qu'il est obligatoire de s'arrêter au péage.",
+    "rules": ["S'arrêter au péage."],
+    "typical_locations": ["Stations de péage"],
+    "shape": "Rond",
+    "common_mistakes": ["Ne pas s'arrêter au péage", "Ignorer le panneau"]
+  },
+  {
+    "id": "B6a1",
+    "name": "Interdiction de stationner",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "parking"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B6a1.png",
+    "description": "Ce panneau indique qu'il est interdit de stationner.",
+    "rules": ["Ne pas stationner."],
+    "typical_locations": [
+      "Zones à forte circulation",
+      "Devant les entrées de garage"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Stationner sans tenir compte du panneau",
+      "Ne pas voir le panneau"
+    ]
+  },
+  {
+    "id": "B6a2",
+    "name": "Interdiction de stationner",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "parking"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B6a2.png",
+    "description": "Ce panneau indique qu'il est interdit de stationner du côté indiqué par la flèche.",
+    "rules": ["Ne pas stationner du côté indiqué par la flèche."],
+    "typical_locations": [
+      "Zones à forte circulation",
+      "Devant les entrées de garage"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Stationner sans tenir compte du panneau",
+      "Ne pas voir le panneau"
+    ]
+  },
+  {
+    "id": "B6B3_2008",
+    "name": "Entrée dans une zone à stationnement à durée limitée",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "parking"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B6B3_2008.png",
+    "description": "Ce panneau indique l'entrée dans une zone où le stationnement est limité dans le temps.",
+    "rules": [
+      "Respecter la durée maximale de stationnement.",
+      "Utiliser un disque de stationnement si nécessaire."
+    ],
+    "typical_locations": ["Centres-villes", "Zones commerçantes"],
+    "shape": "Rectangulaire",
+    "common_mistakes": [
+      "Dépasser la durée maximale de stationnement",
+      "Ne pas utiliser de disque de stationnement"
+    ]
+  },
+  {
+    "id": "B6d",
+    "name": "Interdiction de stationner",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "parking"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B6d.png",
+    "description": "Ce panneau indique une interdiction de stationner. L'arrêt est autorisé, sauf indication contraire.",
+    "rules": [
+      "Ne pas stationner dans la zone indiquée",
+      "Être attentif aux panneaux complémentaires précisant les exceptions"
+    ],
+    "typical_locations": [
+      "Zones urbaines",
+      "Devant les entrées de garage",
+      "Arrêts de bus"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Stationner brièvement en pensant que cela est autorisé",
+      "Ignorer les panneaux complémentaires"
+    ]
+  },
+  {
+    "id": "B7a",
+    "name": "Accès interdit aux véhicules à moteur",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B7a.png",
+    "description": "Ce panneau interdit l'accès aux véhicules à moteur, à l'exception des cyclomoteurs.",
+    "rules": [
+      "Ne pas emprunter la voie avec un véhicule à moteur (voiture, moto, camion)",
+      "Les cyclomoteurs sont autorisés"
+    ],
+    "typical_locations": [
+      "Zones piétonnes",
+      "Pistes cyclables",
+      "Routes forestières"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Confondre avec l'interdiction à tous les véhicules",
+      "Penser que les motos sont autorisées"
+    ]
+  },
+  {
+    "id": "B7b",
+    "name": "Accès interdit à tous les véhicules",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B7b.png",
+    "description": "Ce panneau interdit l'accès à tous les types de véhicules, y compris les vélos.",
+    "rules": [
+      "Aucun véhicule n'est autorisé à emprunter la voie",
+      "Vérifier s'il existe des exceptions signalées par des panneaux complémentaires"
+    ],
+    "typical_locations": [
+      "Zones piétonnes",
+      "Travaux routiers",
+      "Voies privées"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Penser que les vélos sont autorisés",
+      "Ignorer le panneau en pensant qu'il est obsolète"
+    ]
+  },
+  {
+    "id": "B8",
+    "name": "Accès interdit aux véhicules à moteur (transport marchandises)",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B8.png",
+    "description": "Ce panneau interdit l'accès aux véhicules à moteur affectés au transport de marchandises.",
+    "rules": [
+      "Ne pas emprunter la voie avec un camion ou une camionnette transportant des marchandises",
+      "Les véhicules utilitaires légers peuvent être autorisés selon le PTAC (Poids Total Autorisé en Charge)"
+    ],
+    "typical_locations": [
+      "Zones résidentielles",
+      "Centres-villes",
+      "Routes étroites"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ne pas tenir compte du type de véhicule",
+      "Ignorer le PTAC"
+    ]
+  },
+  {
+    "id": "B9a",
+    "name": "Accès interdit aux piétons",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9a.png",
+    "description": "Ce panneau interdit aux piétons de circuler sur la voie.",
+    "rules": [
+      "Ne pas marcher sur la voie",
+      "Utiliser les trottoirs ou les passages piétons"
+    ],
+    "typical_locations": ["Autoroutes", "Voies rapides", "Tunnels"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Traverser la route en pensant que c'est plus rapide",
+      "Marcher sur le bas-côté en cas de panne"
+    ]
+  },
+  {
+    "id": "B9c",
+    "name": "Accès interdit aux véhicules à traction animale",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9c.png",
+    "description": "Ce panneau interdit l'accès aux véhicules tirés par des animaux.",
+    "rules": [
+      "Ne pas emprunter la voie avec une charrette tirée par un cheval ou un autre animal",
+      "Rechercher des itinéraires alternatifs"
+    ],
+    "typical_locations": [
+      "Routes nationales",
+      "Zones urbaines",
+      "Routes à forte circulation"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau en pensant que la circulation est faible",
+      "Ne pas anticiper les itinéraires alternatifs"
+    ]
+  },
+  {
+    "id": "B9d",
+    "name": "Accès interdit aux véhicules agricoles",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9d.png",
+    "description": "Ce panneau interdit l'accès aux tracteurs et autres véhicules agricoles.",
+    "rules": [
+      "Ne pas emprunter la voie avec un véhicule agricole",
+      "Utiliser les chemins agricoles ou les routes alternatives"
+    ],
+    "typical_locations": [
+      "Autoroutes",
+      "Voies rapides",
+      "Routes à forte circulation"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Penser que l'interdiction ne s'applique qu'à certains types de véhicules agricoles",
+      "Ne pas connaître les itinéraires alternatifs"
+    ]
+  },
+  {
+    "id": "B9e",
+    "name": "Accès interdit aux charrettes à bras",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9e.png",
+    "description": "Ce panneau interdit l'accès aux charrettes à bras.",
+    "rules": [
+      "Ne pas utiliser de charrette à bras sur cette voie",
+      "Rechercher des itinéraires alternatifs"
+    ],
+    "typical_locations": [
+      "Zones urbaines",
+      "Routes à forte circulation",
+      "Tunnels"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Penser que l'interdiction ne s'applique qu'à certaines heures",
+      "Ne pas anticiper les itinéraires alternatifs"
+    ]
+  },
+  {
+    "id": "B9f",
+    "name": "Accès interdit aux véhicules de transport en commun",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9f.png",
+    "description": "Ce panneau interdit l'accès aux bus et autres véhicules de transport en commun.",
+    "rules": [
+      "Ne pas emprunter la voie avec un bus ou un autocar",
+      "Utiliser les itinéraires de déviation"
+    ],
+    "typical_locations": [
+      "Zones piétonnes",
+      "Routes étroites",
+      "Routes en travaux"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau en pensant qu'il est temporaire",
+      "Ne pas connaître les itinéraires de déviation"
+    ]
+  },
+  {
+    "id": "B9g",
+    "name": "Accès interdit aux cyclomoteurs",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9g.png",
+    "description": "Ce panneau interdit l'accès aux cyclomoteurs.",
+    "rules": [
+      "Ne pas emprunter la voie avec un cyclomoteur",
+      "Utiliser les pistes cyclables ou les routes alternatives"
+    ],
+    "typical_locations": ["Autoroutes", "Voies rapides", "Tunnels"],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Confondre avec l'interdiction aux motos",
+      "Ne pas connaître les itinéraires alternatifs"
+    ]
+  },
+  {
+    "id": "B9h",
+    "name": "Accès interdit aux motocyclettes",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9h.png",
+    "description": "Ce panneau indique que l'accès est interdit aux motocyclettes.",
+    "rules": ["Ne pas circuler à motocyclette sur cette voie."],
+    "typical_locations": [
+      "Routes interdites aux motocyclettes",
+      "Zones piétonnes"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau et emprunter la voie avec une motocyclette."
+    ]
+  },
+  {
+    "id": "B9i",
+    "name": "Accès interdit aux véhicules (caravanes)",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B9i.png",
+    "description": "Ce panneau indique que l'accès est interdit aux véhicules tractant une caravane.",
+    "rules": ["Ne pas circuler avec une caravane sur cette voie."],
+    "typical_locations": [
+      "Routes interdites aux caravanes",
+      "Zones résidentielles"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Ignorer le panneau et emprunter la voie avec une caravane."
+    ]
+  },
+  {
+    "id": "B10a",
+    "name": "Limitation de longueur",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B10a.png",
+    "description": "Ce panneau indique la longueur maximale autorisée pour les véhicules.",
+    "rules": [
+      "Vérifier la longueur de son véhicule.",
+      "Ne pas emprunter la voie si la longueur du véhicule dépasse la limite indiquée."
+    ],
+    "typical_locations": ["Ponts", "Tunnels", "Routes étroites"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas tenir compte de la longueur de son véhicule.",
+      "Emprunter la voie avec un véhicule trop long."
+    ]
+  },
+  {
+    "id": "B11",
+    "name": "Limitation de largueur",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B11.png",
+    "description": "Ce panneau indique la largeur maximale autorisée pour les véhicules.",
+    "rules": [
+      "Vérifier la largeur de son véhicule.",
+      "Ne pas emprunter la voie si la largeur du véhicule dépasse la limite indiquée."
+    ],
+    "typical_locations": ["Ponts", "Tunnels", "Routes étroites"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas tenir compte de la largeur de son véhicule.",
+      "Emprunter la voie avec un véhicule trop large."
+    ]
+  },
+  {
+    "id": "B12",
+    "name": "Limitation de hauteur",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B12.png",
+    "description": "Ce panneau indique la hauteur maximale autorisée pour les véhicules.",
+    "rules": [
+      "Vérifier la hauteur de son véhicule.",
+      "Ne pas emprunter la voie si la hauteur du véhicule dépasse la limite indiquée."
+    ],
+    "typical_locations": ["Ponts", "Tunnels", "Passages inférieurs"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas tenir compte de la hauteur de son véhicule.",
+      "Emprunter la voie avec un véhicule trop haut."
+    ]
+  },
+  {
+    "id": "B13",
+    "name": "Limitation de tonnage",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B13.png",
+    "description": "Ce panneau indique le poids total maximal autorisé pour les véhicules.",
+    "rules": [
+      "Vérifier le poids total de son véhicule.",
+      "Ne pas emprunter la voie si le poids total du véhicule dépasse la limite indiquée."
+    ],
+    "typical_locations": ["Ponts", "Routes fragiles"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas tenir compte du poids total de son véhicule.",
+      "Emprunter la voie avec un véhicule trop lourd."
+    ]
+  },
+  {
+    "id": "B13a",
+    "name": "Limitation de poids par essieu",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B13a.png",
+    "description": "Ce panneau indique le poids maximal autorisé par essieu pour les véhicules.",
+    "rules": [
+      "Vérifier le poids par essieu de son véhicule.",
+      "Ne pas emprunter la voie si le poids par essieu du véhicule dépasse la limite indiquée."
+    ],
+    "typical_locations": ["Ponts", "Routes fragiles"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas tenir compte du poids par essieu de son véhicule.",
+      "Emprunter la voie avec un véhicule dont le poids par essieu est trop élevé."
+    ]
+  },
+  {
+    "id": "B14_50",
+    "name": "Limitation de vitesse",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "speed"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B14_50.png",
+    "description": "Ce panneau indique la vitesse maximale autorisée.",
+    "rules": ["Ne pas dépasser la vitesse indiquée."],
+    "typical_locations": ["Routes", "Autoroutes", "Agglomérations"],
+    "shape": "Rond",
+    "common_mistakes": ["Dépasser la vitesse autorisée."]
+  },
+  {
+    "id": "B15",
+    "name": "Céder le passage à la circulation de l'autre sens",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "priority"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B15.png",
+    "description": "Ce panneau indique qu'il faut céder le passage aux véhicules venant en sens inverse.",
+    "rules": [
+      "Céder le passage aux véhicules venant en sens inverse.",
+      "Ne s'engager que si l'on est sûr de pouvoir passer sans gêner la circulation en sens inverse."
+    ],
+    "typical_locations": ["Passages étroits", "Ponts étroits"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas céder le passage aux véhicules venant en sens inverse.",
+      "S'engager alors que la circulation en sens inverse est dense."
+    ]
+  },
+  {
+    "id": "B16",
+    "name": "Signaux sonores interdits",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B16.png",
+    "description": "Ce panneau indique que l'utilisation des avertisseurs sonores est interdite.",
+    "rules": [
+      "Ne pas utiliser l'avertisseur sonore, sauf en cas de danger immédiat."
+    ],
+    "typical_locations": ["Hôpitaux", "Zones résidentielles", "Lieux de culte"],
+    "shape": "Rond",
+    "common_mistakes": ["Utiliser l'avertisseur sonore sans raison valable."]
+  },
+  {
+    "id": "B17",
+    "name": "Intervalle minimal",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B17.png",
+    "description": "Indique la distance minimale obligatoire entre deux véhicules.",
+    "rules": [
+      "Maintenir une distance de sécurité avec le véhicule qui précède.",
+      "Adapter sa vitesse en fonction de la distance de sécurité."
+    ],
+    "typical_locations": [
+      "Routes à forte circulation",
+      "Autoroutes",
+      "Zones de travaux"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas respecter la distance minimale indiquée",
+      "Sous-estimer la distance de freinage"
+    ]
+  },
+  {
+    "id": "B18a",
+    "name": "Accès interdit aux véhicules transportant des marchandises explosives",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B18a.png",
+    "description": "Interdit l'accès aux véhicules transportant des marchandises explosives.",
+    "rules": [
+      "Ne pas emprunter la route si le véhicule transporte des marchandises explosives.",
+      "Rechercher un itinéraire alternatif."
+    ],
+    "typical_locations": ["Tunnels", "Zones urbaines", "Zones sensibles"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ignorer le panneau et emprunter la route interdite",
+      "Ne pas connaître la réglementation sur le transport de marchandises dangereuses"
+    ]
+  },
+  {
+    "id": "B18b",
+    "name": "Accès interdit aux véhicules transportant des polluants",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B18b.png",
+    "description": "Interdit l'accès aux véhicules transportant des produits polluants.",
+    "rules": [
+      "Ne pas emprunter la route si le véhicule transporte des produits polluants.",
+      "Rechercher un itinéraire alternatif."
+    ],
+    "typical_locations": [
+      "Zones de captage d'eau potable",
+      "Zones écologiquement sensibles",
+      "Tunnels"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ignorer le panneau et emprunter la route interdite",
+      "Ne pas connaître la réglementation sur le transport de produits polluants"
+    ]
+  },
+  {
+    "id": "B18c",
+    "name": "Accès interdit aux véhicules transportant des marchandises dangeureuses",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B18c.png",
+    "description": "Interdit l'accès aux véhicules transportant des marchandises dangereuses.",
+    "rules": [
+      "Ne pas emprunter la route si le véhicule transporte des marchandises dangereuses.",
+      "Rechercher un itinéraire alternatif."
+    ],
+    "typical_locations": ["Tunnels", "Zones urbaines", "Zones sensibles"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ignorer le panneau et emprunter la route interdite",
+      "Ne pas connaître la réglementation sur le transport de marchandises dangereuses"
+    ]
+  },
+  {
+    "id": "B19",
+    "name": "Autres interdictions",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B19.png",
+    "description": "Indique une interdiction spécifique précisée par un panonceau additionnel.",
+    "rules": [
+      "Respecter l'interdiction indiquée sur le panonceau additionnel.",
+      "Adapter sa conduite en conséquence."
+    ],
+    "typical_locations": [
+      "Zones spécifiques",
+      "Routes avec des restrictions particulières"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ignorer le panonceau additionnel",
+      "Ne pas comprendre la signification de l'interdiction"
+    ]
+  },
+  {
+    "id": "B21a1",
+    "name": "Contournement obligatoire par la droite",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21a1.png",
+    "description": "Obligation de contourner l'obstacle par la droite.",
+    "rules": [
+      "Contourner l'obstacle par la droite.",
+      "Ralentir et vérifier l'absence de danger."
+    ],
+    "typical_locations": ["Îlots directionnels", "Obstacles sur la chaussée"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Contourner l'obstacle par la gauche",
+      "Ne pas ralentir avant de contourner l'obstacle"
+    ]
+  },
+  {
+    "id": "B21a2",
+    "name": "Contournement obligatoire par la gauche",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21a2.png",
+    "description": "Obligation de contourner l'obstacle par la gauche.",
+    "rules": [
+      "Contourner l'obstacle par la gauche.",
+      "Ralentir et vérifier l'absence de danger."
+    ],
+    "typical_locations": ["Îlots directionnels", "Obstacles sur la chaussée"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Contourner l'obstacle par la droite",
+      "Ne pas ralentir avant de contourner l'obstacle"
+    ]
+  },
+  {
+    "id": "B21b",
+    "name": "Obligation d'aller tout droit",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21b.png",
+    "description": "Obligation de continuer tout droit.",
+    "rules": [
+      "Suivre la direction indiquée par la flèche.",
+      "Ne pas tourner à gauche ou à droite."
+    ],
+    "typical_locations": ["Intersections", "Routes à sens unique"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Tourner à gauche ou à droite malgré l'obligation d'aller tout droit",
+      "Ne pas respecter le sens unique"
+    ]
+  },
+  {
+    "id": "B21c1",
+    "name": "Obligtion de tourner à droite",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21c1.png",
+    "description": "Obligation de tourner à droite.",
+    "rules": [
+      "Tourner à droite.",
+      "Céder le passage aux piétons et aux autres véhicules."
+    ],
+    "typical_locations": ["Intersections", "Routes à sens unique"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Aller tout droit ou tourner à gauche malgré l'obligation de tourner à droite",
+      "Ne pas céder le passage"
+    ]
+  },
+  {
+    "id": "B21c2",
+    "name": "Obligation de tourner à gauche",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21c2.png",
+    "description": "Obligation de tourner à gauche.",
+    "rules": [
+      "Tourner à gauche.",
+      "Céder le passage aux piétons et aux autres véhicules."
+    ],
+    "typical_locations": ["Intersections", "Routes à sens unique"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Aller tout droit ou tourner à droite malgré l'obligation de tourner à gauche",
+      "Ne pas céder le passage"
+    ]
+  },
+  {
+    "id": "B21d1",
+    "name": "Obligation d'aller tout droit ou à droite",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21d1.png",
+    "description": "Ce panneau indique une obligation de suivre la direction tout droit ou de tourner à droite. Il est placé avant l'intersection où cette obligation s'applique.",
+    "rules": [
+      "Suivre obligatoirement la direction indiquée (tout droit ou à droite)",
+      "Ne pas tourner à gauche",
+      "Respecter les autres règles de circulation"
+    ],
+    "typical_locations": [
+      "Avant une intersection",
+      "Sur une voie où certaines directions sont interdites"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas respecter l'obligation de direction",
+      "Tourner dans une direction interdite"
+    ]
+  },
+  {
+    "id": "B21d2",
+    "name": "Obligation d'aller tout droit ou à gauche",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21d2.png",
+    "description": "Ce panneau indique une obligation de suivre la direction tout droit ou de tourner à gauche. Il est placé avant l'intersection où cette obligation s'applique.",
+    "rules": [
+      "Suivre obligatoirement la direction indiquée (tout droit ou à gauche)",
+      "Ne pas tourner à droite",
+      "Respecter les autres règles de circulation"
+    ],
+    "typical_locations": [
+      "Avant une intersection",
+      "Sur une voie où certaines directions sont interdites"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas respecter l'obligation de direction",
+      "Tourner dans une direction interdite"
+    ]
+  },
+  {
+    "id": "B21e",
+    "name": "Obligation d'aller à droite ou à gauche",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B21e.png",
+    "description": "Ce panneau indique une obligation de tourner à droite ou à gauche. Il est placé avant l'intersection où cette obligation s'applique.",
+    "rules": [
+      "Suivre obligatoirement la direction indiquée (à droite ou à gauche)",
+      "Ne pas aller tout droit",
+      "Respecter les autres règles de circulation"
+    ],
+    "typical_locations": [
+      "Avant une intersection",
+      "Sur une voie où certaines directions sont interdites"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas respecter l'obligation de direction",
+      "Aller tout droit alors que c'est interdit"
+    ]
+  },
+  {
+    "id": "B22a",
+    "name": "Piste ou bande obligatoire pour les vélos",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B22a.png",
+    "description": "Ce panneau indique une piste ou une bande cyclable obligatoire. Seuls les vélos sont autorisés à circuler sur cette voie.",
+    "rules": [
+      "Utiliser obligatoirement la piste ou bande cyclable pour les vélos",
+      "Les autres véhicules ne sont pas autorisés sur cette voie",
+      "Respecter les règles spécifiques aux cyclistes"
+    ],
+    "typical_locations": ["Le long des routes", "Dans les zones urbaines"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas utiliser la piste cyclable alors qu'elle est obligatoire",
+      "Circuler sur la piste cyclable avec un véhicule non autorisé"
+    ]
+  },
+  {
+    "id": "B22b",
+    "name": "Chemin obligatoire pour piétons",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B22b.png",
+    "description": "Ce panneau indique un chemin obligatoire pour les piétons. Les piétons doivent utiliser ce chemin et ne pas marcher sur la chaussée.",
+    "rules": [
+      "Utiliser obligatoirement le chemin indiqué pour les piétons",
+      "Ne pas marcher sur la chaussée",
+      "Respecter les règles de sécurité piétonne"
+    ],
+    "typical_locations": [
+      "Le long des routes",
+      "Dans les zones urbaines",
+      "Près des zones dangereuses"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas utiliser le chemin piétonnier alors qu'il est obligatoire",
+      "Marcher sur la chaussée au lieu d'utiliser le chemin piétonnier"
+    ]
+  },
+  {
+    "id": "B22c",
+    "name": "Chemin obligatoire pour cavaliers",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B22c.png",
+    "description": "Ce panneau indique un chemin obligatoire pour les cavaliers. Les cavaliers doivent utiliser ce chemin et ne pas circuler sur la chaussée.",
+    "rules": [
+      "Utiliser obligatoirement le chemin indiqué pour les cavaliers",
+      "Ne pas circuler sur la chaussée",
+      "Respecter les règles de sécurité équestre"
+    ],
+    "typical_locations": ["En zone rurale", "Dans les parcs et forêts"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas utiliser le chemin équestre alors qu'il est obligatoire",
+      "Circuler sur la chaussée au lieu d'utiliser le chemin équestre"
+    ]
+  },
+  {
+    "id": "B26",
+    "name": "Chaîne obligatoire",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B26.png",
+    "description": "Ce panneau indique que l'utilisation de chaînes à neige est obligatoire pour circuler sur cette portion de route.",
+    "rules": [
+      "Installer des chaînes à neige sur les roues motrices",
+      "Respecter la vitesse maximale autorisée avec des chaînes",
+      "Retirer les chaînes lorsque le panneau de fin d'obligation est présent"
+    ],
+    "typical_locations": ["Routes de montagne enneigées ou verglacées"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Ne pas installer de chaînes alors que c'est obligatoire",
+      "Rouler trop vite avec des chaînes",
+      "Oublier de retirer les chaînes lorsque ce n'est plus nécessaire"
+    ]
+  },
+  {
+    "id": "B27a",
+    "name": "Voie obligatoire pour les bus",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B27a.png",
+    "description": "Ce panneau indique une voie réservée aux bus. Seuls les bus sont autorisés à circuler sur cette voie.",
+    "rules": [
+      "La voie est réservée aux bus",
+      "Les autres véhicules ne sont pas autorisés sur cette voie",
+      "Respecter les règles spécifiques aux bus"
+    ],
+    "typical_locations": ["En ville", "Sur les routes à forte circulation"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Emprunter la voie de bus avec un véhicule non autorisé",
+      "Gêner la circulation des bus"
+    ]
+  },
+  {
+    "id": "B27b",
+    "name": "Passages pour les tramways",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B27b.png",
+    "description": "Ce panneau indique une voie réservée aux tramways. Seuls les tramways sont autorisés à circuler sur cette voie.",
+    "rules": [
+      "La voie est réservée aux tramways",
+      "Les autres véhicules ne sont pas autorisés sur cette voie",
+      "Respecter les règles spécifiques aux tramways"
+    ],
+    "typical_locations": ["En ville", "Sur les routes à forte circulation"],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Emprunter la voie de tramway avec un véhicule non autorisé",
+      "Gêner la circulation des tramways"
+    ]
+  },
+  {
+    "id": "B29",
+    "name": "Obligation d'allumer les feux de croisement",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B29.png",
+    "description": "Ce panneau indique l'obligation d'allumer les feux de croisement. Il est généralement utilisé dans les tunnels ou en cas de faible visibilité.",
+    "rules": [
+      "Allumer obligatoirement les feux de croisement",
+      "Maintenir les feux allumés jusqu'à la fin de la zone signalée",
+      "Utiliser les feux de brouillard avant si nécessaire"
+    ],
+    "typical_locations": [
+      "À l'entrée des tunnels",
+      "Sur les routes à faible visibilité (brouillard, pluie, neige)"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": [
+      "Oublier d'allumer les feux de croisement",
+      "Utiliser les feux de route au lieu des feux de croisement"
+    ]
+  },
+  {
+    "id": "B31",
+    "name": "Fin de toutes les interdictions signalées",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B31.png",
+    "description": "Indique la fin de toutes les interdictions qui avaient été précédemment signalées par des panneaux de signalisation.",
+    "rules": [
+      "Les restrictions précédentes ne sont plus en vigueur",
+      "Reprendre une conduite normale en respectant les règles générales du code de la route"
+    ],
+    "typical_locations": [
+      "Après une zone où plusieurs interdictions étaient en vigueur"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B33",
+    "name": "Fin de limitation de vitesse à 50 km/h",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "speed"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B33.png",
+    "description": "Signale la fin d'une zone où la vitesse était limitée à 50 km/h.",
+    "rules": [
+      "La limitation de vitesse à 50 km/h n'est plus en vigueur",
+      "Respecter la limitation de vitesse générale applicable sur la route"
+    ],
+    "typical_locations": [
+      "À la sortie d'une agglomération",
+      "Après une zone de travaux"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B34",
+    "name": "Fin d'interdiction de dépasser",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B34.png",
+    "description": "Indique la fin de l'interdiction de dépasser les autres véhicules.",
+    "rules": [
+      "L'interdiction de dépasser n'est plus en vigueur",
+      "Le dépassement est autorisé si les conditions de sécurité sont réunies"
+    ],
+    "typical_locations": [
+      "Après une zone de travaux",
+      "Après une portion de route étroite"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B34a",
+    "name": "Fin d'interdiction de dépasser pour les camions",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B34a.png",
+    "description": "Signale la fin de l'interdiction de dépasser pour les véhicules poids lourds.",
+    "rules": [
+      "L'interdiction de dépasser pour les camions n'est plus en vigueur",
+      "Les camions peuvent dépasser si les conditions de sécurité sont réunies"
+    ],
+    "typical_locations": [
+      "Après une zone de travaux",
+      "Après une portion de route étroite"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B35",
+    "name": "Fin d'interdiction d'usage des avertisseurs sonores",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B35.png",
+    "description": "Indique la fin de l'interdiction d'utiliser les avertisseurs sonores (klaxon).",
+    "rules": [
+      "L'interdiction d'utiliser le klaxon n'est plus en vigueur",
+      "L'utilisation du klaxon est autorisée en cas de danger immédiat"
+    ],
+    "typical_locations": [
+      "À la sortie d'une zone résidentielle",
+      "Après un hôpital"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B39",
+    "name": "Fin d'interdiction aux automobilistes de circuler",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B39.png",
+    "description": "Indique la fin d'une zone interdite à la circulation automobile.",
+    "rules": [
+      "L'interdiction de circuler pour les automobiles n'est plus en vigueur",
+      "Les automobiles peuvent circuler normalement"
+    ],
+    "typical_locations": [
+      "À la sortie d'une zone piétonne",
+      "Après une rue réservée aux transports en commun"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B40",
+    "name": "Fin de piste ou bande obligatoire pour les vélos",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B40.png",
+    "description": "Signale la fin de la piste ou bande cyclable obligatoire.",
+    "rules": [
+      "L'obligation d'emprunter la piste cyclable n'est plus en vigueur",
+      "Les cyclistes peuvent circuler sur la chaussée en respectant le code de la route"
+    ],
+    "typical_locations": ["À la fin d'une piste cyclable aménagée"],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B41",
+    "name": "Fin de l'obligatoire pour piétons",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B41.png",
+    "description": "Indique la fin du chemin obligatoire pour les piétons.",
+    "rules": [
+      "L'obligation d'emprunter le chemin piétonnier n'est plus en vigueur",
+      "Les piétons peuvent circuler sur la chaussée en respectant le code de la route"
+    ],
+    "typical_locations": ["À la fin d'un chemin piétonnier aménagé"],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B42",
+    "name": "Fin de l'obligatoire pour cavaliers",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B42.png",
+    "description": "Indique la fin du chemin obligatoire pour les cavaliers.",
+    "rules": [
+      "L'obligation d'emprunter le chemin pour cavaliers n'est plus en vigueur",
+      "Les cavaliers peuvent circuler sur la chaussée en respectant le code de la route"
+    ],
+    "typical_locations": ["À la fin d'un chemin pour cavaliers aménagé"],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B43",
+    "name": "Fin de limitation de vitesse à 30 km/h",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "speed"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B43.png",
+    "description": "Signale la fin d'une zone où la vitesse était limitée à 30 km/h.",
+    "rules": [
+      "La limitation de vitesse à 30 km/h n'est plus en vigueur",
+      "Respecter la limitation de vitesse générale applicable sur la route"
+    ],
+    "typical_locations": [
+      "À la sortie d'une zone 30",
+      "Après une zone résidentielle"
+    ],
+    "shape": "Circulaire",
+    "common_mistakes": null
+  },
+  {
+    "id": "B44",
+    "name": "Fin de l'obligation des chaînes",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B44.png",
+    "description": "Indique la fin de la zone où l'utilisation de chaînes à neige était obligatoire.",
+    "rules": [
+      "Retirer les chaînes à neige.",
+      "Reprendre une vitesse normale adaptée aux conditions."
+    ],
+    "typical_locations": [
+      "Fin des zones montagneuses",
+      "Routes où l'obligation des chaînes est temporaire"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Oublier de retirer les chaînes, endommageant le véhicule et la route."
+    ]
+  },
+  {
+    "id": "B45a",
+    "name": "Fin de la voie obligatoire pour les bus",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B45a.png",
+    "description": "Signale la fin de la voie réservée aux autobus.",
+    "rules": [
+      "Les autres véhicules peuvent réintégrer la voie.",
+      "Respecter les règles de circulation générales."
+    ],
+    "typical_locations": [
+      "Fin des voies de bus",
+      "Routes avec voies réservées aux bus"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Continuer à utiliser la voie de bus alors qu'elle n'est plus obligatoire."
+    ]
+  },
+  {
+    "id": "B49",
+    "name": "Fin d'allumage des feux",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B49.png",
+    "description": "Indique la fin de l'obligation de rouler avec les feux de croisement allumés (souvent en agglomération).",
+    "rules": [
+      "Possibilité d'éteindre les feux de croisement si les conditions le permettent.",
+      "Adapter l'éclairage aux conditions de visibilité."
+    ],
+    "typical_locations": [
+      "Sortie d'agglomération",
+      "Zones où l'allumage des feux est obligatoire temporairement"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Oublier d'éteindre les feux de croisement lorsque ce n'est plus nécessaire."
+    ]
+  },
+  {
+    "id": "B50c_2008",
+    "name": "Sortie d'une zone de stationnement à durée limitée",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "parking"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B50c_2008.png",
+    "description": "Signale la fin d'une zone où le stationnement est limité dans le temps (zone bleue, etc.).",
+    "rules": [
+      "Les restrictions de stationnement de la zone ne s'appliquent plus.",
+      "Respecter les règles de stationnement générales."
+    ],
+    "typical_locations": [
+      "Sortie des zones de stationnement réglementé",
+      "Centres-villes"
+    ],
+    "shape": "Rond",
+    "common_mistakes": [
+      "Penser que les règles de stationnement limité s'appliquent encore après le panneau."
+    ]
+  },
+  {
+    "id": "B52",
+    "name": "Zone de rencontre",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B52.png",
+    "description": "Indique le début d'une zone de rencontre où les piétons sont prioritaires et la vitesse est limitée à 20 km/h.",
+    "rules": [
+      "Vitesse maximale de 20 km/h.",
+      "Priorité aux piétons.",
+      "Les piétons peuvent utiliser toute la largeur de la chaussée.",
+      "Les conducteurs doivent faire preuve d'une prudence particulière."
+    ],
+    "typical_locations": [
+      "Zones résidentielles",
+      "Centres-villes",
+      "Zones piétonnes"
+    ],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Ne pas respecter la limitation de vitesse.",
+      "Ne pas céder le passage aux piétons.",
+      "Conduire de manière imprudente."
+    ]
+  },
+  {
+    "id": "B53",
+    "name": "Fin de la zone de rencontre",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B53.png",
+    "description": "Signale la fin d'une zone de rencontre.",
+    "rules": [
+      "Les règles de circulation générales s'appliquent à nouveau.",
+      "Être attentif aux changements de priorité."
+    ],
+    "typical_locations": ["Sortie des zones de rencontre"],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Continuer à conduire comme si on était encore dans une zone de rencontre."
+    ]
+  },
+  {
+    "id": "B54",
+    "name": "Aire piétonne",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B54.png",
+    "description": "Indique le début d'une aire piétonne où la circulation des véhicules est généralement interdite.",
+    "rules": [
+      "Circulation interdite aux véhicules (sauf exceptions).",
+      "Priorité absolue aux piétons."
+    ],
+    "typical_locations": ["Centres-villes", "Zones commerçantes"],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Pénétrer dans l'aire piétonne avec un véhicule sans autorisation."
+    ]
+  },
+  {
+    "id": "B55",
+    "name": "Fin de l'aire piétonne",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B55.png",
+    "description": "Signale la fin d'une aire piétonne.",
+    "rules": [
+      "Les règles de circulation générales s'appliquent à nouveau.",
+      "Être attentif à la présence de piétons."
+    ],
+    "typical_locations": ["Sortie des aires piétonnes"],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Ne pas être attentif aux piétons en sortant de l'aire piétonne."
+    ]
+  },
+  {
+    "id": "B211",
+    "name": "Obligation de tourner à droite avant le panneau",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B211.png",
+    "description": "Indique une obligation de tourner à droite juste avant le panneau.",
+    "rules": [
+      "Tourner à droite est obligatoire.",
+      "Ne pas aller tout droit ou à gauche."
+    ],
+    "typical_locations": ["Intersections", "Routes à sens unique"],
+    "shape": "Rond",
+    "common_mistakes": ["Ne pas respecter l'obligation de tourner à droite."]
+  },
+  {
+    "id": "B212",
+    "name": "Obligation de tourner à gauche avant le panneau",
+    "category": {
+      "name": "regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/B212.png",
+    "description": "Indique une obligation de tourner à gauche juste avant le panneau.",
+    "rules": [
+      "Tourner à gauche est obligatoire.",
+      "Ne pas aller tout droit ou à droite."
+    ],
+    "typical_locations": ["Intersections", "Routes à sens unique"],
+    "shape": "Rond",
+    "common_mistakes": ["Ne pas respecter l'obligation de tourner à gauche."]
+  },
+  {
+    "id": "C13a",
+    "name": "Impasse",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "direction"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C13a.png",
+    "description": "Indique une route sans issue, où il n'est pas possible de continuer tout droit.",
+    "rules": [
+      "Être conscient qu'il n'y a pas de passage possible.",
+      "Planifier un demi-tour ou un itinéraire alternatif."
+    ],
+    "typical_locations": [
+      "Routes résidentielles",
+      "Zones industrielles",
+      "Extrémités de routes"
+    ],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "S'engager sans vérifier la possibilité de faire demi-tour",
+      "Ne pas anticiper la nécessité de rebrousser chemin"
+    ]
+  },
+  {
+    "id": "C64a",
+    "name": "Péage",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "services"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C64a.png",
+    "description": "Indique la présence d'une station de péage où un paiement est requis pour continuer sur la route.",
+    "rules": [
+      "Préparer le paiement (espèces, carte, badge télépéage).",
+      "Ralentir et suivre les indications pour la voie de péage appropriée."
+    ],
+    "typical_locations": ["Autoroutes", "Ponts", "Tunnels"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas avoir le moyen de paiement approprié.",
+      "Choisir la mauvaise voie (par exemple, voie télépéage sans badge)."
+    ]
+  },
+  {
+    "id": "C108",
+    "name": "Fin de route à accès réglementé",
+    "category": {
+      "name": "Regulatory",
+      "description": "Panneaux informant les usagers de la route des lois et réglementations de circulation",
+      "subcategory": "movement"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C108.png",
+    "description": "Signale la fin d'une zone où l'accès est soumis à des règles spécifiques (par exemple, interdiction aux piétons, cyclistes, etc.).",
+    "rules": [
+      "Être conscient que les restrictions précédentes ne s'appliquent plus.",
+      "Adapter sa conduite aux nouvelles conditions de circulation."
+    ],
+    "typical_locations": [
+      "Sorties d'autoroutes",
+      "Extrémités de voies rapides",
+      "Zones piétonnes"
+    ],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Continuer à appliquer les règles de la zone précédente.",
+      "Ne pas être attentif aux changements de conditions de circulation."
+    ]
+  },
+  {
+    "id": "C113",
+    "name": "Piste ou bande cyclable conseillée et réservée aux cycles à deux ou trois roues.",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "facilities"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C113.png",
+    "description": "Indique une voie réservée et conseillée aux cyclistes.",
+    "rules": [
+      "Les cyclistes doivent utiliser cette voie.",
+      "Les autres véhicules ne doivent pas empiéter sur cette voie."
+    ],
+    "typical_locations": [
+      "Le long des routes",
+      "Dans les villes",
+      "Sur les chemins de campagne"
+    ],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Les cyclistes n'utilisent pas la piste cyclable.",
+      "Les voitures se garent sur la piste cyclable."
+    ]
+  },
+  {
+    "id": "C114",
+    "name": "Fin d'une piste ou d'une bande cyclable conseillée et réservée aux cycles à deux ou trois roues.",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "facilities"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C114.png",
+    "description": "Indique la fin d'une voie réservée et conseillée aux cyclistes.",
+    "rules": [
+      "Les cyclistes doivent être attentifs à la circulation générale.",
+      "Les cyclistes doivent réintégrer la chaussée prudemment."
+    ],
+    "typical_locations": [
+      "A la fin des pistes cyclables",
+      "Avant les intersections",
+      "Avant les zones dangereuses"
+    ],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Les cyclistes ne font pas attention à la circulation.",
+      "Les cyclistes réintègrent la chaussée sans regarder."
+    ]
+  },
+  {
+    "id": "C207",
+    "name": "Début d'une section d'autoroute",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "direction"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C207.png",
+    "description": "Indique le début d'une autoroute, avec les règles spécifiques qui s'y appliquent (vitesse, interdictions, etc.).",
+    "rules": [
+      "Respecter les limitations de vitesse spécifiques aux autoroutes.",
+      "Utiliser la voie de droite sauf pour dépasser.",
+      "Interdiction de faire demi-tour ou de s'arrêter sur la bande d'arrêt d'urgence sauf en cas de nécessité."
+    ],
+    "typical_locations": ["Accès aux autoroutes", "Après les péages"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas adapter sa vitesse aux conditions de circulation.",
+      "Oublier les règles spécifiques aux autoroutes."
+    ]
+  },
+  {
+    "id": "C208",
+    "name": "Fin d'une section d'autoroute",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "direction"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/C208.png",
+    "description": "Indique la fin d'une autoroute et le retour à une route ordinaire, avec des règles de circulation potentiellement différentes.",
+    "rules": [
+      "Adapter sa vitesse aux nouvelles limitations.",
+      "Être attentif aux changements de conditions de circulation."
+    ],
+    "typical_locations": ["Sorties d'autoroutes", "Avant les péages"],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Continuer à rouler à la vitesse autorisée sur l'autoroute.",
+      "Ne pas être attentif aux panneaux indiquant les nouvelles limitations."
+    ]
+  },
+  {
+    "id": "CE6a",
+    "name": "Point de départ d'un itinéraire pédestre",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "facilities"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/CE6a.png",
+    "description": "Indique le point de départ d'un itinéraire de randonnée pédestre.",
+    "rules": [
+      "Suivre les balises de l'itinéraire.",
+      "Préparer son équipement en fonction de la difficulté et de la durée de la randonnée."
+    ],
+    "typical_locations": [
+      "Départs de sentiers de randonnée",
+      "Proximité de parkings",
+      "Zones touristiques"
+    ],
+    "shape": "Rectangle",
+    "common_mistakes": [
+      "Ne pas suivre les balises et se perdre.",
+      "Sous-estimer la difficulté de la randonnée."
+    ]
+  },
+  {
+    "id": "CE7",
+    "name": "Emplacement pour pique-nique",
+    "category": {
+      "name": "information",
+      "description": "Panneaux fournissant des informations sur les destinations, services et installations",
+      "subcategory": "services"
+    },
+    "image": "https://wims.math.cnrs.fr/wims/modules/data/images/roadsigns.fr/images/png100/CE7.png",
+    "description": "Indique un endroit aménagé pour pique-niquer.",
+    "rules": [
+      "Respecter la propreté des lieux.",
+      "Ne pas faire de feu en dehors des zones autorisées."
+    ],
+    "typical_locations": ["Aires de repos", "Parcs", "Bords de lacs"],
+    "shape": "Carré",
+    "common_mistakes": [
+      "Laisser des déchets sur place.",
+      "Faire du bruit excessif."
+    ]
+  }
+]
+
