@@ -64,39 +64,64 @@ class RoadSignModule:
         )
         return result.output
 
-    async def gen_quizz(self, phone: str, level: str) -> MCQResponse:
-        history = await self.api.get_user_quizz(phone, "general")
-        history = "\n".join([str(q) for q in history])
-        output = await self._get_quizz(
-            QUIZZER_PROMPT, history=history, level=level
-        )
+    async def gen_quizz(self, phone: str, level: str, quiz_type: str = "general") -> MCQResponse:
+        """
+        Generate a quiz question (general or sign-specific)
+        
+        Args:
+            phone: User phone identifier
+            level: Difficulty level (1-5)
+            quiz_type: "general" or "sign"
+        """
+        # Get quiz history for the specific type
+        quiz_history = await self.api.get_user_quizz(phone, quiz_type)
+        questions_history = "\n".join([f"  * {q.get('question', '')}" for q in quiz_history[:3]])
+        
+        # Get learned signs (for context in both quiz types)
+        viewed_signs = await self.api.get_viewed_signs(phone) or []
+        learned_signs_context = "Aucun panneau appris pour le moment."
+        
+        if viewed_signs:
+            # Get details of learned signs for context
+            learned_signs = [r.clean() for r in self.get_by_id(viewed_signs[:10])]
+            learned_signs_context = "\n".join([
+                f"  * {sign.get('name', '')} ({sign.get('id', '')}): {sign.get('description', '')[:80]}"
+                for sign in learned_signs
+            ])
+        
+        if quiz_type == "sign":
+            # Sign quiz: use last 3 viewed signs as context
+            choice_ids = viewed_signs[-10:]
+            signs = [r.clean() for r in self.get_by_id(choice_ids)]
+            signs_history = "\n".join([f"   * {sign.get('name', '')} ({sign.get('id', '')}): {sign.get('description', '')[:80]}" for sign in signs])
+            
+            output = await self._get_quizz(
+                SIGN_QUIZZER_PROMPT,
+                history=signs_history,
+                latest_questions=questions_history,
+                level=level
+            )
+        else:
+            # General quiz: use question history + learned signs for context
+            output = await self._get_quizz(
+                QUIZZER_PROMPT,
+                history=questions_history,
+                learned_signs=learned_signs_context,
+                level=level
+            )
+        
         question = choice(output.items)
         asyncio.create_task(self.api.add_user_quizz(
             row_id:=str(uuid.uuid4()),
             phone, question.question,
             question.difficulty,
-            "general"
+            quiz_type
         ))
         return MCQResponse(id=row_id, **question.model_dump())
 
     async def gen_sign_quizz(self, phone: str, level: str) -> MCQResponse:
-        viewed = await self.api.get_viewed_signs(phone) or []
-        choice_ids = [*viewed, *list(set(self.ids)-set(viewed))[:3]]
-        # shuffle
-        shuffle(choice_ids)
-        signs = [r.clean() for r in self.get_by_id(choice_ids)]
-        history = "\n\n".join([str(q) for q in signs])
-        output = await self._get_quizz(
-            SIGN_QUIZZER_PROMPT, history=history, level=level
-        )
-        question = choice(output.items)
-        asyncio.create_task(self.api.add_user_quizz(
-            row_id:=str(uuid.uuid4()),
-            phone, question.question,
-            question.difficulty,
-            "sign"
-        ))
-        return MCQResponse(id=row_id, **question.model_dump())
+        """Convenience method for sign quiz"""
+        return await self.gen_quizz(phone, level, quiz_type="sign")
 
     async def recognize_sign(self, img: str):
         result = await agent.run(
